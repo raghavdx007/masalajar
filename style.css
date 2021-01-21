@@ -5,6 +5,7 @@
   font-family: 'poppins',sans-serif;
 }
 
+
 section {
   position: relative;
   width: 100%;
@@ -33,14 +34,19 @@ section {
 
 .navbar-nav  li a {
   display:flex;
-  color: #fff;
-  font-weight: 500px;
+  color: black;
+  font-weight: light;
   text-decoration: none;
   margin-left: 100px;
   justify-content: center;
   align-items: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+
+
 
 }
+
 
 .Content {
   position: relative;
@@ -78,7 +84,7 @@ font-family: 'Permanent Marker', cursive;
 }
 
 .container-fluid{
-padding: 3% 15%; 
+padding: 3% 15%;
 }
 .Content .TextBox a {
   display: inline-block;
@@ -93,7 +99,20 @@ padding: 3% 15%;
   letter-spacing: 1px;
   text-decoration: none;
 }
+.btn  {
+  color: #E32227;
+  margin-left:6px;
 
+}
+
+.title-image {
+  height: auto;
+  width: auto;
+}
+
+.learnmore-button {
+  margin: auto;
+}
 .soc{
   position: absolute;
   bottom: 5px;
