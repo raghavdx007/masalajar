@@ -6,7 +6,7 @@
 }
 
 #title {
-  min-height: 100vh;
+  max-height: 100vh;
   padding: 30px 90px;
   justify-content: space-between;
   align-items: center;
