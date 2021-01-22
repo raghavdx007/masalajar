@@ -6,13 +6,15 @@
 }
 
 #title {
+  margin: auto;
   max-height: 100vh;
   padding: 30px 90px;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: left;
   background: #161616;
   text-align: center;
 }
+
 
 
 .circle {
@@ -22,7 +24,7 @@
   width: 100%;
   height: 100%;
   background :#E32227;
-  clip-path: circle(70% at right -50%);
+  clip-path: circle(70% at right -55%);
 }
 
 .logo
@@ -34,16 +36,18 @@
   color: black;
   font-weight: light;
   text-decoration: none;
-  margin-left: 100px;
-  justify-content: center;
+  margin-left: 90px;
+  justify-content: space-between;
   align-items: center;
-  font-family: 'Inconsolata', monospace;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-family: 'Major Mono Display', monospace;
 }
 
-nav-link:hover {
-  color: #fff;
+.navbar-nav  li a:hover {
+  color: #000;
 }
+
+
 .Content .TextBox h1
 
 {
@@ -58,11 +62,11 @@ nav-link:hover {
   justify-content: center;
 }
 
-.Content .TextBox h5
+.Content .TextBox p
 {
   color: #fff;
   margin-left: 10px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .container-fluid{
