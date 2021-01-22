@@ -39,20 +39,11 @@
   align-items: center;
   font-family: 'Inconsolata', monospace;
   font-size: 1.5rem;
-
-
-
 }
 
 nav-link:hover {
   color: #fff;
 }
-
-
-
-
-
-
 .Content .TextBox h1
 
 {
@@ -67,11 +58,11 @@ nav-link:hover {
   justify-content: center;
 }
 
-.Content .TextBox p
+.Content .TextBox h5
 {
   color: #fff;
   margin-left: 10px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .container-fluid{
