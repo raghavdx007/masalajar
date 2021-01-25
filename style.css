@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: 'poppins',sans-serif;
 }
-
 #title {
   margin: auto;
   max-height: 100vh;
@@ -31,10 +30,8 @@
 {
    max-width: 130px;
 }
-.navbar-nav  li a {
-  display:flex;
-  color: black;
-  font-weight: light;
+.navbar-nav .nav-item .nav-link{
+  font-weight: bold;
   text-decoration: none;
   margin-left: 90px;
   justify-content: space-between;
@@ -43,9 +40,6 @@
   font-family: 'Major Mono Display', monospace;
 }
 
-.navbar-nav  li a:hover {
-  color: #000;
-}
 
 
 .Content .TextBox h1
@@ -94,61 +88,7 @@ padding: 3% 15%;
 .learnmore-button {
   margin-left: 15px;
 }
-.soc{
-  position: absolute;
-  bottom: 5px;
-  left:70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
 
-.soc li
-{
-  list-style: none;
-
-}
-
-.soc li a
-{
-  display: inline-block;
-  margin-left: 15px;
-  background: #222;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  transition: 0.4s ease-in-out;
-  }
-
-  .soc li a:hover {
-    background: #e51e2a;
-    transform: translateY(-10x);
-  }
-
-  .soc li a img
-  {
-    filter: invert(1);
-    transform: scale(0.5);
-  }
-  .social {
-      color:#fff;
-      font-size:22px;
-      border-radius:50%;
-      margin:0px 8px;
-      text-align:center;
-      display: inline-block;
-      text-decoration: none;
-  }
-
-  .social:hover
-  {
-    background: #e51e2a;
-    transform: translateY(-10x);
-    text-decoration: none;
-  }
 #features
 {  padding: 8% 15%;
 }
@@ -211,3 +151,58 @@ font-size: 5rem;
 .carousel-item{
   padding: 1% 10%;
 }
+
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.soc{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.soc li
+{
+  list-style: none;
+
+}
+
+.soc li a
+{
+  margin-left: 15px;
+  background: #222;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.12s ease-in-out;
+  }
+
+  .soc li a:hover {
+    background: #e51e2a;
+    transform: translateY(-10x);
+  }
+
+
+  .social {
+      color:#fff;
+      font-size:22px;
+      border-radius:50%;
+      margin-left: 20px;
+      text-align:center;
+      display: inline-block;
+      text-decoration: none;
+  }
+
+  .social:hover
+  {
+    background: #e51e2a;
+    transform: translateY(-10x);
+    text-decoration: none;
+  }
