@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'poppins',sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 #title {
   margin: auto;
   max-height: 100vh;
@@ -116,6 +119,8 @@ h3{
 
 .icon:hover{
   color: #E32227;
+  transition: 0.15s ease-in-out;
+
 }
 
 #productgallery {
@@ -125,6 +130,7 @@ h3{
   color: #fff;
 
 }
+
  .prod h2 {
    font-family: 'Carter One', cursive;
    font-size: 30px;
@@ -154,10 +160,14 @@ font-size: 5rem;
 
 
 #footer {
-  padding: 7% 15%;
+  padding: 2%;
   text-align: center;
 }
 
+.footer p{
+  font-family:   font-family: 'Bebas Neue', cursive;
+
+}
 .soc{
 
   display: flex;
