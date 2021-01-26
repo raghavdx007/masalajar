@@ -33,7 +33,6 @@ html {
 {
    max-width: 130px;
 }
-<<<<<<< Updated upstream
 .navbar-nav .nav-item .nav-link{
   font-weight: bold;
   text-decoration: none;
@@ -46,18 +45,6 @@ html {
 
 
 
-=======
-.navbar-nav .nav-item .nav-link  {
-  font-weight: bolder;
-  margin: 0 0 10px 70px;
-  font-size: 1rem;
-  font-family: 'Major Mono Display', monospace;
-  color: #000;
-}
-.navbar-nav .nav-item .nav-link:hover  {
-color: #fff;
-}
->>>>>>> Stashed changes
 .Content .TextBox h1
 
 {
@@ -107,13 +94,11 @@ padding: 3% 15%;
 
 #features
 {  padding: 8% 15%;
-  background-color: #fff;
 }
 
 .feature-box{
   text-align: center;
   padding: 1% 5%;
-  color: #000;
 }
 .feature-box p{
 
@@ -143,7 +128,6 @@ h3{
   padding: 4% 15%;
   text-align: center;
   color: #fff;
-
 
 }
 
