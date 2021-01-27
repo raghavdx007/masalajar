@@ -55,9 +55,10 @@ html {
   margin-left: 10px;
   margin-bottom: 30px;
   line-height: 1em;
-  font-weight: 700;
+  font-weight: 300;
   font-family: 'Bungee Inline', cursive;
   justify-content: center;
+  text-align: center;
 }
 
 .Content .TextBox p
