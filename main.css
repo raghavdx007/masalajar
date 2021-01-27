@@ -7,9 +7,10 @@
     --gray: #ededed;
 }
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
 }
 body{
     font-family: 'Quicksand', sans-serif;
@@ -18,7 +19,6 @@ body{
 /* Utility stylings */
 img{
     width: 100%;
-    display: block;
 }
 .container{
     width: 88vw;
@@ -40,11 +40,11 @@ img{
 }
 .md-title{
     font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Righteous', cursive;}
 .sm-title{
+    font-family: 'Righteous', cursive;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: .9rem;
     text-transform: uppercase;
 }
 .text-light{
@@ -53,12 +53,12 @@ img{
     line-height: 1.5;
     opacity: 0.5;
     margin: 0.4rem 0;
+font-family: 'Special Elite', cursive;
 }
 
 /* product section */
 .products{
     background: var(--alice-blue);
-    padding: 3.2rem 0;
 }
 .products .text-light{
     text-align: center;
@@ -90,34 +90,10 @@ img{
     opacity: 0;
     transition: opacity 0.6s ease;
 }
-.btn-cart, .btn-buy{
-    background: transparent;
-    border: 1px solid black;
-    padding: 0.8rem 0;
-    width: 125px;
-    font-family: inherit;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: none;
-    transition: all 0.6s ease;
-}
-.btn-cart{
-    background: black;
-    color: white;
-}
-.btn-cart:hover{
-    background: var(--carribean-green);
-}
-.btn-buy{
-    background: white;
-}
-.btn-buy:hover{
-    background: var(--carribean-green);
-    color: #fff;
-}
+
 .product-info{
     background: white;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 .product-info-top{
     justify-content: space-between;
@@ -169,58 +145,26 @@ img{
     cursor: pointer;
 }
 
-/* product collection */
-.product-collection{
-    padding: 3.2rem 0;
+.logo
+{
+   max-width: 130px;
+   margin-left: 40px;
 }
-.product-collection-wrapper{
-    padding: 3.2rem 0;
+.navbar-nav .nav-item .nav-link{
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 70px;
+  font-size: 1rem;
+  font-family: 'Major Mono Display', monospace;
 }
-.product-col-left{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/fashion-img-1.jpg") center/cover no-repeat;
+#title {
+  margin: auto;
+  align-items: left;
+  background: #161616;
 }
-.product-col-r-top{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/fashion-img-2.png") center/cover no-repeat;
-}
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 50vh;
-    padding: 2rem 1.5rem 3.2rem;
-    margin: 5px;
-}
-.product-col-r-bottom > div:first-child{
-    background: #eaa001;
-}
-.product-col-r-bottom > div:last-child{
-    background: #0090ff;
-}
-.product-col-content{
-    text-align: center;
-    color: white;
-}
-.product-collection .text-light{
-    opacity: 1;
-    font-size: 0.8;
-    font-weight: 400;
-    line-height: 1.7;
-}
-.btn-dark{
-    background: black;
-    color: white;
-    outline: 0;
-    border-radius: 25px;
-    padding: 0.7rem 1rem;
-    border: 0;
-    margin-top: 1rem;
-    cursor: pointer;
-    transition: all 0.6s ease;
-    font-size: 1rem;
-    font-family: inherit;
-}
-.btn-dark:hover{
-    background: var(--carribean-green);
+
+.nav-link:hover{
+  color: #fff;
 }
 
 
