@@ -17,8 +17,6 @@ html {
   text-align: center;
 }
 
-
-
 .circle {
   position: absolute;
   top: 0;
@@ -29,6 +27,7 @@ html {
   clip-path: circle(70% at right -55%);
 }
 
+
 .logo
 {
    max-width: 130px;
@@ -36,11 +35,13 @@ html {
 .navbar-nav .nav-item .nav-link{
   font-weight: bold;
   text-decoration: none;
-  margin-left: 90px;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: 70px;
   font-size: 1rem;
   font-family: 'Major Mono Display', monospace;
+}
+
+.nav-link:hover{
+  color: #000;
 }
 
 
