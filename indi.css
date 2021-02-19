@@ -258,6 +258,7 @@ img{
         align-items: center;
     }
     .product-imgs{
+      height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
