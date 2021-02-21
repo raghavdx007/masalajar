@@ -197,15 +197,19 @@ font-size: 5rem;
 
 .soc li a
 {
-  margin-left: 15px;
+  display: flex;
   background: #222;
+  color: #fff;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: 2rem;
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: 0.12s ease-in-out;
+  margin-left: 20px;
   }
 
   .soc li a:hover {
@@ -226,6 +230,9 @@ font-size: 5rem;
 
   .social:hover
   {
+    background: #e51e2a;
+    transform: translateY(-10x);
+    color: #fff;
     background: #e51e2a;
     transform: translateY(-10x);
     text-decoration: none;
