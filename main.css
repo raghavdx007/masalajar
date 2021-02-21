@@ -30,6 +30,7 @@ img{
   font-family: 'Bebas Neue', cursive;
     padding: 0.6rem 0;
     text-transform: capitalize;
+    text-decoration: none;
 }
 .lg-title{
     font-size: 5rem;
@@ -44,8 +45,11 @@ img{
 .sm-title{
     font-family: 'Righteous', cursive;
     font-weight: 300;
-    font-size: .9rem;
+    font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+
 }
 .text-lights{
     font-size: 1rem;
@@ -89,11 +93,14 @@ img{
 
 .product-info{
     background: white;
-    padding: 2.5rem;
+    padding: 3rem 5rem;
 }
 .product-info-top{
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
 }
 .rating span{
     color: var(--carribean-green);
@@ -128,7 +135,7 @@ img{
 }
 .off-info .sm-title{
     background: var(--carribean-green);
-    color: white;
+    color: #;
     display: inline-block;
     padding: 0.5rem;
     position: absolute;
@@ -139,6 +146,7 @@ img{
     z-index: 1;
     letter-spacing: 3px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .logo
