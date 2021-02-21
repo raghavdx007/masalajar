@@ -223,7 +223,7 @@ img{
   background: #161616;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (max-width: 992px){
     .card{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -237,7 +237,7 @@ img{
         align-items: center;
     }
     .product-imgs{
-        height: 90vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
