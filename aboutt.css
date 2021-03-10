@@ -31,7 +31,7 @@ body{
 .inner-container h1{
     margin-bottom: 30px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 5.5rem;
+    font-size: 5.2rem;
     font-weight: 500;
     opacity: 0.9;
 
@@ -43,7 +43,7 @@ body{
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
-    
+
 }
 
 .skills{
@@ -60,7 +60,6 @@ body{
 }
 
 .navbar-nav .nav-item .nav-link{
-  color: #fff;
   font-weight: bold;
   text-decoration: none;
   justify-content: right;
@@ -77,10 +76,6 @@ body{
   margin: auto;
   align-items: left;
   background: #161616;
-}
-
-.nav-link:hover{
-  color: #fff;
 }
 
 
@@ -102,7 +97,7 @@ body{
 
 @media screen and (max-width:600px){
     .about-section{
-        padding: 0;
+        padding: 30px;
     }
     .inner-container{
         padding: 60px;
