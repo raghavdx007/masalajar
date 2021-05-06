@@ -234,6 +234,7 @@ height: 100vh;
 
   .TextBox{
     flex-direction: column;
+    object-fit: contain;
   }
 
   .logo{
