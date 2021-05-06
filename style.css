@@ -12,8 +12,6 @@ html {
 #title {
 
   margin: auto;
-  max-height: 100%;
-  padding: 30px 90px;
   justify-content: center;
   align-items: left;
   background: #161616;
@@ -32,6 +30,7 @@ html {
 
 .logo {
   max-width: 130px;
+  margin-left: 0px;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -43,7 +42,6 @@ html {
   font-family: 'Major Mono Display', monospace;
   text-align: right;
   justify-content: right;
-  list-style:
 }
 
 .nav-link:hover {
@@ -55,7 +53,7 @@ html {
   font-size: 45px;
   margin-top: 10px;
   margin-left: 10px;
-  margin-dttom: 30px;
+  margin-bottom: 30px;
   line-height: 1.5em;
   font-weight: 300;
   font-family: 'Bungee Inline', cursive;
