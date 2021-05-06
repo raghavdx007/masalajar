@@ -52,11 +52,11 @@ html {
 
 .Content .TextBox h1 {
   color: #fff;
-  font-size: 3.3rem;
+  font-size: 45px;
   margin-top: 10px;
   margin-left: 10px;
   margin-dttom: 30px;
-  line-height: 1.2em;
+  line-height: 1.5em;
   font-weight: 300;
   font-family: 'Bungee Inline', cursive;
   justify-content: center;
@@ -65,9 +65,10 @@ html {
 
 .Content .TextBox p {
   color: #fff;
+  font-size: 26px;
   margin-left: 10px;
-  line-height: 25px;
-  font-size: 21px;
+  line-height: 55px;
+  object-fit: contain;
 }
 
 .container-fluid {
@@ -225,23 +226,4 @@ h3 {
   background: #e51e2a;
   transform: translateY(-10x);
   text-decoration: none;
-}
-
-@media (max-width: 990px){
-  .title{
-height: 100vh;
- }
-
-  .TextBox{
-    flex-direction: column;
-    object-fit: contain;
-  }
-
-  .logo{
-    flex-direction: column;
-  }
-
-  .navbar{
-    flex-direction: row;
-  }
 }
