@@ -12,7 +12,7 @@ html {
 #title {
 
   margin: auto;
-  max-height: 100vh;
+  max-height: 100%;
   padding: 30px 90px;
   justify-content: center;
   align-items: left;
@@ -68,7 +68,6 @@ html {
   font-size: 26px;
   margin-left: 10px;
   line-height: 55px;
-  object-fit: contain;
 }
 
 .container-fluid {
@@ -136,14 +135,14 @@ h3 {
 
 .prod h2 {
   font-family: 'Carter One', cursive;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.5;
   padding: 0;
 }
 
 .prod h1 {
   font-family: 'Special Elite', cursive;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 .prod p {
@@ -226,4 +225,23 @@ h3 {
   background: #e51e2a;
   transform: translateY(-10x);
   text-decoration: none;
+}
+
+@media (max-width: 990px){
+  .title{
+height: 100vh;
+ }
+
+  .TextBox{
+    flex-direction: row;
+    object-fit: contain;
+  }
+
+  .logo{
+    flex-direction: column;
+  }
+
+  .navbar{
+    flex-direction: row;
+  }
 }
